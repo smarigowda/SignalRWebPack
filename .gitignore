@@ -1,2 +1,5 @@
 node_modules/
 wwwroot/index.html
+wwwroot/main.*.js
+obj/Debug/netcoreapp3.1/Tsc*.out
+wwwroot/css/main.*.css

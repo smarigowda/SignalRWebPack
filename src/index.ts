@@ -27,6 +27,7 @@ tbMessage.addEventListener("keyup", (e: KeyboardEvent) => {
 
 btnSend.addEventListener("click", send);
 
+// Calls the Hub method newMessage (SignalR backend, C# code)
 function send() {
   connection
     .send("newMessage", username, tbMessage.value)
